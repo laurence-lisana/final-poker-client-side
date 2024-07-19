@@ -1,11 +1,11 @@
 import React, {useState} from "react";
 import ReactDOM from "react-dom/client";
-import Signup from "./Routes/Signup";
-import Login from "./Routes/Login";
+import Signup from "./Signup";
+import Login from "./Login";
 import APPCONTEXT from "./AppContext";
-import Home from "./Routes/Home";
+import Home from "./Home";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Game from "./Routes/Game";
+import Game from "./Game";
 import "./style.css";
 function APP(){
 const [token,setToken]=useState("")
